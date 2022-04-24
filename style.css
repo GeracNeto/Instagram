@@ -112,11 +112,14 @@ input{
 
 .entrar-facebook{
     display: flex;
-    width: 60%;
+    width: 70%;
     align-items: center;
     justify-content: space-evenly;
     height: 20px;
     font-weight: 600;
+}
+
+.entrar-facebook a{
     color: #385185;
 }
 
@@ -226,7 +229,69 @@ footer{
     width: 100%;
 }
 
+@media (max-width: 1024px){
+    .celular{
+        display: none;
+    }
 
+    .container-left{
+        width: 70%;
+    }
+
+    footer{
+        width: 80%;
+    }
+}
+
+@media (max-width: 786px){
+
+    .container-left{
+        width: 50%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px){
+
+    .links{
+        flex-direction: column;
+    }
+
+    .entrar-facebook{
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px){
+
+    .entrar-facebook{
+        width: 100%;
+    }
+
+    .topicos{
+        flex-direction: column;
+    }
+
+    .sociais{
+        justify-content: space-around;
+        width: 20%;
+    }
+
+    .final img{
+        width: 30px;
+    }
+}
+
+@media (max-width: 380px){
+    
+    .container-left{
+        width: 100%;        
+    }
+    
+}
 
 
 
