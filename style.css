@@ -16,4 +16,72 @@ body{
     width: 100%;
     min-height: fit-content;
     padding: 10%;
+    background-color: #fafafa;
 }
+
+.flex-container{
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    min-height: fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.celular{
+    height: 90vh;
+    border: 1px solid;
+}
+
+.celular img{
+    height: 100%;
+}
+
+.container-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
+    width: 35%;
+    border: 1px solid;
+}
+
+.group-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid gray;
+    width: 100%;
+    height: 70%;
+}
+
+.group-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid gray;
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+}
+
+.group-3{
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    height: 12%;
+    
+}
+
+.logo-insta{
+    padding: 20px;
+}
+
