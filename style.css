@@ -21,16 +21,15 @@ body{
 
 .flex-container{
     display: flex;
-    border: 1px solid;
     width: 100%;
     min-height: fit-content;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .celular{
     height: 90vh;
-    border: 1px solid;
+    margin-right: 3%;
 }
 
 .celular img{
@@ -40,11 +39,14 @@ body{
 .container-left{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
     height: 90vh;
     width: 35%;
-    border: 1px solid;
+}
+
+.logo-insta{
+    padding: 20px;
 }
 
 .group-1{
@@ -66,22 +68,104 @@ body{
     border: 1px solid gray;
     width: 100%;
     height: 10%;
-    margin-top: 3%;
+}
+
+.group-2 a{
+    color: #0095f6;
+    font-weight: 600;
 }
 
 .group-3{
     display: flex;
-    border: 1px solid;
     width: 100%;
+    height: 15%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
-    height: 12%;
-    
 }
 
-.logo-insta{
-    padding: 20px;
+.img-store{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    align-content: ;
+    width: 100%;
+    height: 60%;
 }
+
+.img-store img{
+    width: 150px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    align-items: ;
+    justify-content: space-between;
+}
+
+input{
+    height: 35px;
+    border-radius: 3px;
+    background-color: #fafafa;
+    border: 1px solid gray;
+}
+
+.entrar{
+    background-color: #0095f6;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+/* ::before e ::after na classe chamada ou cria aqueles riscos antes e depois do "ou" */
+
+.ou::before{
+    content: "";
+    background-color: gray;
+    width: 40%;
+    height: 1px;
+}
+
+.ou{
+    color: gray;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ou::after{
+    content: "";
+    background-color: gray;
+    width: 40%;
+    height: 1px;
+}
+
+.entrar-facebook{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20px;
+    font-weight: 600;
+    color: #385185;
+}
+
+.entrar-facebook img{
+    width: 8%;
+}
+
+#esqueceu-senha{
+    font-size: 12px;
+    color: #385185;
+}
+
+
 
