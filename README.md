@@ -4,6 +4,6 @@
 
 <br>
 
-#### * O arquivo index.html e style.css eu tentei recriar a página sem assistir à aula. Tentei fazer com o que ja tinha aprendido.
+#### * O arquivo insta.html e styleinsta.html eu recriei após assitir à aula do curso.
 
-#### * O arquivo insta.html e styleinsta.html eu recriei após assitir à aula.
+#### * O arquivo index.html e style.css Está EM ANDAMENTO, estou melhorando o códgio.
